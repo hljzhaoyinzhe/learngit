@@ -1,0 +1,2 @@
+然后如果本地有一个分支是你创建的dev0628 ，是不能直接提交代码到远程的，因为远程并没有一个叫 origin/dev0628 的分支，需要将本地dev0628 关联到远程 origin/dev0628
+$git branch --set-upstream-to origin/dev0628
